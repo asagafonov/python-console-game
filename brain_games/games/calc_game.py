@@ -8,10 +8,6 @@ description = 'What is the result of the expression?'
 operations = ['+', '-', '*']
 
 
-def is_even(n):
-    return True if n % 2 == 0 else False
-
-
 def brain_calc():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
