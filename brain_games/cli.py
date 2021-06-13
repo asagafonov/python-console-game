@@ -20,6 +20,6 @@ def run_app(rounds, description, game):
         else:
             template = '"{}" is wrong answer ;(. Correct answer was: "{}"'
             print(template.format(user_answer, correct_answer))
-            print('Let\'s try again, {}'.format(name))
+            print('Let\'s try again, {}!'.format(name))
             return
     print('Congratulations, {}! You win!'.format(name))
