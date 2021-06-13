@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from brain_games import cli
+import prompt
+
 
 def main():
-    cli.run_app(cli.number_of_rounds)
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {}'.format(name))
