@@ -19,7 +19,7 @@ def brain_progression():
     progression_length = 10
     progression_step = randint(1, 10)
     progression = generate_progression(progression_step, progression_length)
-    hidden_el_index = randint(0, 9)
+    hidden_el_index = randint(0, progression_length - 1)
     hidden_progression = progression[:]
     hidden_progression[hidden_el_index] = '..'
 
